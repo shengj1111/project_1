@@ -1,0 +1,204 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/search/search",
+    "pages/tabbar/user/index",
+    "pages/order/order",
+    "pages/message/message",
+    "pages/commodityManagement/commodityManagement",
+    "pages/IntegralMall/IntegralMall",
+    "pages/tabbar/cart/index",
+    "pages/tabbar/category/index",
+    "pages/OnlineCustomer/OnlineCustomer",
+    "pages/switchStore/switchStore",
+    "pages/orderModule/orderModule",
+    "pages/distributionModule/distributionModule",
+    "pages/select/city",
+    "pages/score/list",
+    "pages/score/rules",
+    "pages/score/info",
+    "pages/score/record",
+    "pages/score/order",
+    "pages/score/detail",
+    "pages/score/zhanghu",
+    "pages/score/pay",
+    "pages/map/index",
+    "pages/distributorapplication/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages_category_page1",
+      "pages": [
+        "discount/spikeList",
+        "applyVip/applyVip",
+        "address/index",
+        "discount/groupBuy",
+        "discount/discount",
+        "discount/lingquan",
+        "activity",
+        "search/index/index",
+        "store/index",
+        "goodsModule/goodsList",
+        "goodsModule/newGoodsList",
+        "goodsModule/couponShopList",
+        "goodsModule/jsonText",
+        "goodsModule/qADetail",
+        "goodsModule/answerList",
+        "goodsModule/putQuestions",
+        "goodsModule/userEvaluate",
+        "goodsModule/evaluateDetails",
+        "goodsModule/evaluateList",
+        "goodsModule/addEvaluate",
+        "goodsModule/evaluate",
+        "orderModule/index",
+        "orderModule/quxiaoOrder",
+        "orderModule/orderConfirm",
+        "orderModule/orderDetails",
+        "orderModule/afterSaleApplyRefund",
+        "orderModule/afterSaleApplyRetund",
+        "orderModule/afterSaleApply",
+        "orderModule/platformJoin",
+        "orderModule/addLogistics",
+        "orderModule/refundDetails",
+        "orderModule/returnDetails",
+        "orderModule/afterSale",
+        "distributionModule/index",
+        "distributionModule/recruit",
+        "distributionModule/salesIndex",
+        "distributionModule/shareProduct",
+        "distributionModule/totalPersonnel",
+        "distributionModule/totalAward",
+        "distributionModule/totalClient",
+        "distributionModule/unliquidated",
+        "distributionModule/distributionOrder",
+        "distributionModule/distributionOrderbr",
+        "distributionModule/distributionOrderzt",
+        "distributionModule/promotion",
+        "distributionModule/commodity",
+        "distributionModule/invite",
+        "orderModule/logisticsInfo",
+        "homeModule/special",
+        "goodsModule/invitePoster",
+        "goodsModule/inviteSpell",
+        "linkOthers/index",
+        "mysotre/mystore"
+      ]
+    },
+    {
+      "root": "pages_category_page2",
+      "pages": [
+        "userModule/accountLogin",
+        "userModule/shopPrint",
+        "userModule/wangjimima",
+        "userModule/xiugaimima",
+        "userModule/jifenOrder",
+        "userModule/jifenXiang",
+        "userModule/addAddress",
+        "userModule/addBankcard",
+        "userModule/address",
+        "userModule/bankcard",
+        "userModule/collection",
+        "userModule/footprintList",
+        "userModule/questionList",
+        "userModule/personalDetails",
+        "userModule/coupon",
+        "userModule/logistics",
+        "userModule/login",
+        "userModule/protocol",
+        "userModule/register",
+        "userModule/memberAccount",
+        "userModule/withdraw",
+        "userModule/messageCenter",
+        "userModule/messageDetail",
+        "userModule/bindPhone",
+        "userModule/mobilePhone"
+      ],
+      "name": "pages_category_page2"
+    },
+    {
+      "root": "pages_category_page3",
+      "pages": [
+        "merchants/MerchantLogin/MerchantLogin",
+        "merchants/merchants",
+        "merchants/EditStoreInfo/EditStoreInfo",
+        "merchants/receiptAccount/receiptAccount",
+        "merchants/order",
+        "merchants/beizhuOrder",
+        "merchants/erweima",
+        "merchants/fahuo",
+        "merchants/orderXiang",
+        "merchants/orderDetails",
+        "merchants/shopOrderQuxiao",
+        "merchants/waterList",
+        "merchants/withdrawal",
+        "merchants/withdrawDetails",
+        "merchants/kefu",
+        "merchants/kefuinfo",
+        "merchants/goodsDetails",
+        "xieyi/yinsixieyi",
+        "xieyi/xiaofeizhe",
+        "xieyi/falvshengming",
+        "xieyi/shangjiaruzhu",
+        "jinxiao/index",
+        "shdetail/index",
+        "test/index",
+        "gdmap/index"
+      ],
+      "name": "pages_category_page3"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "cereshop",
+    "navigationBarBackgroundColor": "#00AA49",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#333333",
+    "selectedColor": "#00AA49",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/category/index",
+        "iconPath": "static/img/tabbar/fenlei.png",
+        "selectedIconPath": "static/img/tabbar/fenleiactive.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tabbar/cart/index",
+        "iconPath": "static/img/tabbar/gouwuche.png",
+        "selectedIconPath": "static/img/tabbar/gouwucheactive.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabbar/user/index",
+        "iconPath": "static/img/tabbar/wode.png",
+        "selectedIconPath": "static/img/tabbar/wodeactive.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取对应任务信息"
+    }
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.18",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "usingComponents": {}
+}

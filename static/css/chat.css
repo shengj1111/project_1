@@ -1,0 +1,91 @@
+.content-warp {
+	width: 750rpx;
+	/* height: 100vh; */
+	padding: 0 30rpx;
+	margin-bottom: 100rpx;
+	padding-bottom: 100rpx;
+}
+
+.time {
+	text-align: center;
+}
+
+
+.part {
+	margin-top: 30rpx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.part .image {
+	height: 80rpx;
+	width: 80rpx;
+}
+
+.part .image image {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+
+.part .msg {
+	max-width: 600rpx;
+	line-height: 1.4;
+	border-radius: 8px;
+	font-size: 28rpx;
+	background-color: #F2F2F2;
+	margin-left: 20rpx;
+	margin-right: 0;
+	padding:10rpx 16rpx;
+}
+
+
+
+.part-right {
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+}
+
+.part-right .msg{
+	background-color: #00AA49;
+	margin-right: 20rpx;
+	margin-left: 0;
+	color: #fff;
+}
+
+
+.bottom {
+	position: fixed;
+	bottom: 0;
+	width: 750rpx;
+	height: 80rpx;
+	border-top: 1px solid #CCC;
+}
+
+.bottom .send-warp {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bottom .send-warp .input-warp {
+	width: 600rpx;
+	padding-left: 30rpx;
+}
+
+.bottom .send-warp .btnsend {
+	border-left: 1px solid #ccc;
+	width: 180rpx;
+	text-align: center;
+	background-color: #00AA49;
+	color: #fff;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+
+
+.msg image{
+	width: 400rpx;
+}
